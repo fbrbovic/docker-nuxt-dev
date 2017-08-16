@@ -1,5 +1,10 @@
 FROM node:boron
 
+RUN npm i -g npm@5.0.3
+
+RUN npm -v
+RUN node -v
+
 ENV HOST 0.0.0.0
 
 ENV APP_DIR /app
