@@ -1,4 +1,4 @@
-FROM node:boron
+FROM node:8.4-slim
 
 RUN npm i -g npm3 && npm3 -g uninstall npm
 RUN npm3 i -g npm@5.0.3
